@@ -1,23 +1,23 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <HMain />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import HMain from './components/Home/HMain'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    HMain
   }
 }
 </script>
 
 <style>
-#app {
-
+* {
+  margin: 0px;
+  padding: 0px;
 }
 </style>
