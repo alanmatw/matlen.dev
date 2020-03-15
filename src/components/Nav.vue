@@ -1,45 +1,69 @@
 <template>
-  <nav>
-    <div class="LeFt">
-      <div class="ImgL"></div>  
+  <div class="navbar">
+    <div class="Wrapper">
+      <div class="Img1"></div>
+      <h2 id="H1">Coffee</h2>
+      <div class="Img2"></div>
+      <h2 id="H2">Code</h2>
+      <div class="Img3"></div>
+      <h2 id="H3">Cinema</h2>
     </div>
-    <div class="RiGht">
-      <div class="ImgR"></div>
-    </div>  
-  </nav>    
+  </div>    
 </template>
 
 <style scoped>
-  nav {
+  .navbar {
     background-color: #fff;
     width: 100%;
     height: 150px;
-    position: relative;
+   
   }
-  .LeFt {
-    float: left;
+  .Wrapper {
+    display: flex;
+    padding-left: 34%;
+    padding-top: 45px;
   }
-  .RiGht {
-    float: right;
+  .Wrapper h2 {
+    padding-top: 21px;;
+    font-size: 22px;
+    font-family: 'FiraCode-Medium';
   }
-  .ImgL {
-    position: absolute;
-    top: 35%;
-    left: 5%;
+  #H1 {
+    color: #000;
+  }
+  #H2 {
+    color: #000;
+    margin-left: -20px;
+  }
+  #H3 {
+    color: #000;
+    padding-left: 5px;
+  }
+  .Img1 {
     background-image: url('../assets/CoffeeCup.png');
     height: 50px;
     width: 50px;
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
+    padding: 0px;
   }
-  .ImgR {
-    position: absolute;
-    top: 35%;
-    right: 5%;
+  .Img2 {
     background-image: url('../assets/Code.png');
-    height: 70px;
-    width: 70px;
-    background-size: cover;
-    background-repeat: no-repeat;    
+    height: 100px;
+    width: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: -5px;
+    margin-left: 50px;
   }
+ .Img3 {
+    background-image: url('../assets/BatMan.png');
+    height: 60px;
+    width: 60px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-left: 0px;
+    margin-top: 5px;
+    margin-left: 70px;
+  }  
 </style>
