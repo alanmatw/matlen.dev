@@ -1,18 +1,18 @@
 <template>
-  <div>
-    <HLanding />
-    <Hbox />
-  </div>   
+  <div class="">
+    <Landing />
+    <Lbox />
+  </div>  
 </template>
 
 <script>
-import HLanding from '@/components/Home/Hlanding'
-import Hbox from '@/components/Home/Hbox'
+import Landing from '@/components/Home/Landing'
+import Lbox from '@/components/Home/Lbox'
 
-export default {
+export default {  
   components: {
-    HLanding,
-    Hbox
+    Landing,
+    Lbox   
   }
 }
 </script>
