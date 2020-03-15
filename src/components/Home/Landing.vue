@@ -1,7 +1,7 @@
 <template>
   <div class = "Main">
     <div class="Base">
-      <h1>Hey there,</h1>
+      <h1><span id="Lpath">matlen:\></span>Hey there,</h1>
       <h2>I'm <span id="Lname">ALAN MATHEW</span>, Lorem ipsum dolor sit amet consectetur, adipisicing elit. E</h2>
       <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae corporis, expedita veritati</h2>
       <h2>I'm Alan Mathew, Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea tempora impe</h2>
@@ -39,5 +39,9 @@ export default {
   #Lname {
     font-size: 40px;
     color: #52616b;
+  }
+  #Lpath {
+    font-size: 35px;
+    color: #000;
   }
 </style>

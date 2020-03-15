@@ -20,7 +20,7 @@
   }
   .Wrapper {
     display: flex;
-    padding-left: 34%;
+    padding-left: 33%;
     padding-top: 45px;
   }
   .Wrapper h2 {
