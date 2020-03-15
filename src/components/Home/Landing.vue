@@ -2,7 +2,7 @@
   <div class = "Main">
     <div class="Base">
       <h1>Hey there,</h1>
-      <h2>I'm Alan Mathew, Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea tempora impe</h2>
+      <h2>I'm <span id="Lname">ALAN MATHEW</span>, Lorem ipsum dolor sit amet consectetur, adipisicing elit. E</h2>
       <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae corporis, expedita veritati</h2>
       <h2>I'm Alan Mathew, Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea tempora impe</h2>
       <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae corporis, expedita veritati</h2>      
@@ -35,5 +35,9 @@ export default {
     padding-top: 0px;
     font-size: 25px;
     font-family: 'FiraCode-Regular';
+  }
+  #Lname {
+    font-size: 40px;
+    color: #52616b;
   }
 </style>
