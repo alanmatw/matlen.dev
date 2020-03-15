@@ -1,7 +1,7 @@
 <template>
   <div class = "Main">
     <div class="Base">
-
+      <h1>Hey there,</h1>
     </div>
   </div>       
 </template>
@@ -14,9 +14,12 @@ export default {
 
 <style scoped>
   .Base {
-    background-color: #000;
+    background-color: #1e2022;
     width: 100%;
     height: 100vh;
 
+  }
+  h1 {
+    font-family: 'FiraCode-Medium';
   }
 </style>

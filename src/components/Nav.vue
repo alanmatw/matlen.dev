@@ -1,11 +1,10 @@
 <template>
   <nav>
     <div class="LeFt">
-      <div class="Img"></div>  
+      <div class="ImgL"></div>  
     </div>
     <div class="RiGht">
-      <a href="#"></a>
-      <a href="#"></a>  
+      <div class="ImgR"></div>
     </div>  
   </nav>    
 </template>
@@ -23,7 +22,7 @@
   .RiGht {
     float: right;
   }
-  .Img {
+  .ImgL {
     position: absolute;
     top: 35%;
     left: 5%;
@@ -32,5 +31,15 @@
     width: 50px;
     background-size: cover;
     background-repeat: no-repeat;
+  }
+  .ImgR {
+    position: absolute;
+    top: 35%;
+    right: 5%;
+    background-image: url('../assets/Code.png');
+    height: 70px;
+    width: 70px;
+    background-size: cover;
+    background-repeat: no-repeat;    
   }
 </style>
