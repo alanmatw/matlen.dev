@@ -2,10 +2,10 @@
   <div class = "Main">
     <div class="Base">
       <h1><span id="Lpath">matlen:\></span>Hey there,</h1>
-      <h2>I'm <span id="Lname">ALAN MATHEW</span>, Lorem ipsum dolor sit amet consectetur, adipisicing elit. E</h2>
-      <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae corporis, expedita veritati</h2>
-      <h2>I'm Alan Mathew, Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea tempora impe</h2>
-      <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae corporis, expedita veritati</h2>      
+      <h2>I'm <span id="Lname">ALAN MATHEW</span>, loves to code, Vue.js and Node.js</h2>
+      <h2>Watch a lot of movies, favorite one is 'The Dark Knight'</h2>
+      <h2>Coffee is a weakness</h2>
+      <h2>A sip of coffee, rain outside and coding - a perfect combo!</h2>      
     </div>
   </div>       
 </template>
