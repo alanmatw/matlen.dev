@@ -10,7 +10,7 @@
     </div>
   </div>    
 </template>
-
+ 
 <style scoped>
   .navbar {
     background-color: #fff;

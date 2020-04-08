@@ -1,11 +1,9 @@
 <template>
   <div class = "Main">
     <div class="Base">
-      <h1><span id="Lpath">matlen:\></span>Hey there,</h1>
+      <h1>Hey there,</h1>
       <h2>I'm <span id="Lname">ALAN MATHEW</span>, loves to code, Vue.js and Node.js</h2>
-      <h2>Watch a lot of movies, favorite one is 'The Dark Knight'</h2>
-      <h2>Coffee is a weakness</h2>
-      <h2>A sip of coffee, rain outside and coding - a perfect combo!</h2>      
+      <h2>Watch a lot of movies....</h2>    
     </div>
   </div>       
 </template>
