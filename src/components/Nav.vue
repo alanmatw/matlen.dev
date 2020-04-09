@@ -2,11 +2,11 @@
   <div class="navbar">
     <div class="Wrapper">
       <div class="Img1"></div>
-      <h2 id="H1">Coffee</h2>
+      <h2 id="H1">About.</h2>
       <div class="Img2"></div>
-      <h2 id="H2">Code</h2>
+      <h2 id="H2">Projects.</h2>
       <div class="Img3"></div>
-      <h2 id="H3">Cinema</h2>
+      <h2 id="H3">Contact.</h2>
     </div>
   </div>    
 </template>
@@ -37,7 +37,7 @@
   }
   #H3 {
     color: #000;
-    padding-left: 5px;
+    margin-left: -20px;
   }
   .Img1 {
     background-image: url('../assets/CoffeeCup.png');
@@ -57,13 +57,13 @@
     margin-left: 50px;
   }
  .Img3 {
-    background-image: url('../assets/BatMan.png');
-    height: 60px;
+    background-image: url('../assets/contact2.png');
+    height: 30px;
     width: 60px;
     background-size: contain;
     background-repeat: no-repeat;
     padding-left: 0px;
-    margin-top: 5px;
+    margin-top: 17px;
     margin-left: 70px;
   }  
 </style>
