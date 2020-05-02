@@ -2,7 +2,7 @@
   <div class="navbar">
     <div class="Wrapper">
       <div class="Img1"></div>
-      <h2 id="H1">About.</h2>
+      <h2 id="H1">Me.</h2>
       <div class="Img2"></div>
       <h2 id="H2">Projects.</h2>
       <div class="Img3"></div>
