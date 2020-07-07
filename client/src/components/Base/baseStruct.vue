@@ -48,6 +48,7 @@ export default {
   .left-nav {
     background-color: #1a1a1a;
     /*background-color: #212121;*/
+
   }
   .right-body {
     background-color: #212121;
@@ -62,7 +63,6 @@ export default {
     width: 300px;
     height: 150px;
     background-image: url('../../assets/Text.svg');
-    /*filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%);*/
     /*filter: brightness(0) invert(1);*/
     filter: invert(82%) sepia(75%) saturate(510%) hue-rotate(95deg) brightness(105%) contrast(106%);
     background-blend-mode: overlay;
