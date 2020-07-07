@@ -8,8 +8,8 @@
         <div class="one">
           <div class="one-hdn"></div>
           <div class="one-bdy">
-            <p>I'am Alan Mathew</p>   
-            <p>Full Stack Web Developer</p>             
+            <p>I'am Alan Mathew,</p>   
+            <p>Web Developer.</p>             
           </div>    
         </div>
         
