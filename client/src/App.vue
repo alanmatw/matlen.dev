@@ -40,5 +40,5 @@ export default {
   @font-face {
     font-family: "FiraCode-Retina";
     src: url('./assets/Font/woff/FiraCode-Retina.woff') format('woff');
-}
+  }
 </style>

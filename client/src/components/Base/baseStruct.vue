@@ -5,10 +5,14 @@
         
       </div>
       <div class="right-body">
-        <div class="rb-one">
-          <h1>Hello</h1>
-          <h2>I'am Alan</h2>          
+        <div class="one">
+          <div class="one-hdn"></div>
+          <div class="one-bdy">
+            <p>I'am Alan Mathew</p>   
+            <p>Full Stack Web Developer</p>             
+          </div>    
         </div>
+        
       </div>
     </div>
   </div>
@@ -45,9 +49,29 @@ export default {
     background-color: #212121;
     /*background-color: #323232;*/
   }
-  .rb-one {
-    color: #14FFEC;
+  .one {
+    color: #fff;
     margin-left: 10%;
-    margin-top: 10%;
+    margin-top: 12%;
+  }
+  .one-hdn {
+    width: 300px;
+    height: 150px;
+    background-image: url('../../assets/Text.svg');
+    /*filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%);*/
+    /*filter: brightness(0) invert(1);*/
+    filter: invert(82%) sepia(75%) saturate(510%) hue-rotate(95deg) brightness(105%) contrast(106%);
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;       
+  }
+  .one-bdy {
+    margin-top: 0px;
+    font-size: 25px;
+    font-family: FiraCode-Medium;
+  }
+  .one-bdy p {
+    margin-bottom: 5px;
   }
 </style>
