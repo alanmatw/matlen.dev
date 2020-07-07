@@ -6,7 +6,7 @@ import home from '../components/Home/home.vue'
 import about from '../components/About/about.vue'
 import contactme from '../components/ContactMe/contactme.vue'
 import myworks from '../components/MyWorks/myworks.vue'
-import skills from '../components/Home/skills.vue'
+import skills from '../components/Skills/skills.vue'
 
 Vue.use(VueRouter)
 

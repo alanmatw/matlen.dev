@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import Base from './components/Base/Base'
+import Base from './components/Base/base'
 
 export default {
   name: 'app',
@@ -19,7 +19,6 @@ export default {
   * {
     margin: 0px;
     padding: 0px;
-    /*height: 100%;*/
   }
   @font-face {
       font-family: "FiraCode-Medium";
