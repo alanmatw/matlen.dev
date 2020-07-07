@@ -1,19 +1,16 @@
 <template>
   <div id="app">
-    <Nav />
-    <Home />
+    <Base />
   </div>
 </template>
 
 <script>
-import Home from './components/Home/HMain'
-import Nav from './components/Nav'
+import Base from './components/Base/Base'
 
 export default {
   name: 'app',
   components: {
-    Nav,
-    Home
+    Base
   }
 }
 </script>
@@ -22,6 +19,7 @@ export default {
   * {
     margin: 0px;
     padding: 0px;
+    /*height: 100%;*/
   }
   @font-face {
       font-family: "FiraCode-Medium";
