@@ -18,11 +18,25 @@
     background-color: #61892F;    
 }
 
+.wBL-container {
+    display: flex;
+}
+
 .wBL-p1 {
     margin-top: 20px;
     font-weight: bold;
     font-size: 170px;
     color: #1A1A1D;
+}
+
+.wBL-smiley {
+    margin-top: 167px;
+    width: 40px;
+	height: 40px;
+	background-image: url('../../assets/smiley.svg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;     
 }
 
 .wBL-p2 {
@@ -36,15 +50,9 @@
 }
 
 .wBR-p1 {
-    font-size: 22px;
+    font-size: 18px;
     color: #6B6E6B; 
     margin: 100px;  
-}
-
-.wBR-p1-span {
-    font-size: 55px;
-    font-weight: bold;
-    color: #86C232;
 }
 
 .wBR-svg {
@@ -56,4 +64,11 @@
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: contain;  
+}
+
+.wBR-copyright p {
+    font-size: 17px;
+    color: #6B6E6B; 
+    margin-top: 100px;
+    margin-left: 42%;    
 }

@@ -24,20 +24,24 @@ export default class homeFn extends React.Component {
                 <div className='webBodyWrapper'>
 
                     <div className='webBodyLeft'>
-                        <p className='wBL-p1'>Hi.</p>
+                        <div className='wBL-container'>
+                            <p className='wBL-p1'>Hi</p>
+                            <div className='wBL-smiley' ></div>
+                        </div>
                         <p className='wBL-p2'>I'm Alan.</p>
                     </div>
 
                     <div className='webBodyRight'>
                         <p className='wBR-p1'>
-                            <span className='wBR-p1-span'>I</span> live in Kitchener, Ontario. I'm an international student at Conestoga College, Waterloo, where I'm pursuing
-                            a Graduate Certificate course called Computer Applications Development. I'm originally from a place called Kottayam in 
-                            Kerala, India. I worked as an Assistant System Engineer in a company called Tata Consultancy Services. My hobbies are 
-                            reading, playing computer games, and coding. I love coding. I'm pretty skillful at Node.js, Express.js, and React.js. 
-                            I also like to spend my leisure time reading books. My favorite book is 'The lies of Locke Lamora' by Scott Lynch.
+                            I am a web developer, specialized in MERN stack. Currently, I live in Kitchener, 
+                            Ontario. Orginally I'm from Kerala, India. I love reading books in my spare time. I favorite book is 'The Lies of Locke Lamora'
+                            by Scott Lynch.
                         </p>
 
                         <div className='wBR-svg'></div>
+                        <div className='wBR-copyright'>
+                            <p>&copy;matlen.dev</p>
+                        </div>
                     </div>
                 </div>
             </div>
