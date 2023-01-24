@@ -29,6 +29,13 @@ export default class homeFn extends React.Component {
                             <div className='wBL-smiley' ></div>
                         </div>
                         <p className='wBL-p2'>I'm Alan.</p>
+                        <p>Email: alanmatw@gmail.com</p>
+                        <p>Mobile Number: +1-647-928-3049</p>
+                        <p>Location: Kitchener, Canada</p>
+                        <div className='wBL-logo-wrapper'>
+                            <div className='wBL-git-logo'></div>
+                            <div className='wBL-linkedin-logo'></div>
+                        </div>
                     </div>
 
                     <div className='webBodyRight'>
