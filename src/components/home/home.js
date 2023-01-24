@@ -19,27 +19,29 @@ export default class homeFn extends React.Component {
         return (
             <div className='homeWrapper'>                
                 <div className='navWrapper'>
-
+                    <div className='nav-cmd'></div>
                 </div>
                 <div className='webBodyWrapper'>
 
                     <div className='webBodyLeft'>
-                        <div className='wBL-container'>
+                        <div className='wBL-h-wrapper'>
                             <p className='wBL-p1'>Hi</p>
-                            <div className='wBL-smiley' ></div>
+                            <div className='wBL-h-bird'></div>
                         </div>
-                        <p className='wBL-p2'>I'm Alan.</p>
-                        <p>Email: alanmatw@gmail.com</p>
-                        <p>Mobile Number: +1-647-928-3049</p>
-                        <p>Location: Kitchener, Canada</p>
+                        <p className='wBL-p2'>I am</p>
+                        <p className='wBL-p3'>Alan</p>
+                        <div className='wBL-line'></div>
+                        {/*
                         <div className='wBL-logo-wrapper'>
                             <div className='wBL-git-logo'></div>
                             <div className='wBL-linkedin-logo'></div>
                         </div>
+                        */}
                     </div>
 
                     <div className='webBodyRight'>
-                        <p className='wBR-p1'>
+
+                        {/*<p className='wBR-p1'>
                             I am a web developer, specialized in MERN stack. Currently, I live in Kitchener, 
                             Ontario. Orginally I'm from Kerala, India. I love reading books in my spare time. I favorite book is 'The Lies of Locke Lamora'
                             by Scott Lynch.
@@ -48,7 +50,11 @@ export default class homeFn extends React.Component {
                         <div className='wBR-svg'></div>
                         <div className='wBR-copyright'>
                             <p>&copy;matlen.dev</p>
-                        </div>
+                        </div>                        
+                        
+                        */}
+
+
                     </div>
                 </div>
             </div>
