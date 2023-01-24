@@ -5,3 +5,8 @@
 .App-header {
 
 }
+
+@font-face {
+    font-family: 'code-medium';
+    src: url('fonts/static/SourceCodePro-Medium.ttf');
+  }
