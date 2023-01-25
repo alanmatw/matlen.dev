@@ -139,6 +139,10 @@
     color: #61892F;
 }
 
+#wBR-underline {
+    text-decoration: none;
+}
+
 .wBR-bold {
     font-weight: bold;
 }
