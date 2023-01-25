@@ -139,6 +139,10 @@
     color: #61892F;
 }
 
+.wBR-bold {
+    font-weight: bold;
+}
+
 .wBR-svg {
     margin-top: 0px;
     margin-left: 35%;
