@@ -36,7 +36,11 @@
 
 .webBodyLeft {
     background-color: #61892F; 
-    padding-left: 20px;   
+       
+}
+
+.wBL-container {
+    padding-left: 20px;
 }
 
 .wBL-h-wrapper {
@@ -46,15 +50,15 @@
 .wBL-p1 {
     margin: 0;
     font-weight: bold;
-    font-size: 150px;
+    font-size: 130px;
     color: #1A1A1D;
 }
 
 .wBL-h-tree {
-    margin-top: 120px;
-    width: 45px;
-	height: 45px;
-	background-image: url('../../assets/undraw_tree.svg');
+    margin-top: 112px;
+    width: 30px;
+	height: 30px;
+	background-image: url('../../assets/smiley.svg');
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: contain;    
@@ -62,7 +66,7 @@
 
 .wBL-p2 {
     margin-top: -50px;
-    font-size: 150px;
+    font-size: 130px;
     color: #1A1A1D;  
     font-weight: bold;    
     margin-bottom: 0px;
@@ -70,15 +74,30 @@
 
 .wBL-p3 {
     margin-top: -50px;
-    font-size: 150px;
+    font-size: 130px;
     color: #1A1A1D;  
     font-weight: bold;  
     margin-bottom: 0;  
 }
 
+.wBL-svgImg {
+    border-radius: 5px;
+    border: 2px solid #1A1A1D;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-top: 25px;
+    width: 300px;
+	height: 200px;
+	background-image: url('../../assets/black-svg-undraw.svg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;     
+}
+
 .wBL-line {
     width: 400px;
-	height: 80px;
+	height: 40px;
 	background-image: url('../../assets/line.svg');
 	background-repeat: no-repeat;
 	background-position: center;

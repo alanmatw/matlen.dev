@@ -27,14 +27,21 @@ export default class homeFn extends React.Component {
                 <div className='webBodyWrapper'>
 
                     <div className='webBodyLeft'>
-                        <div className='wBL-h-wrapper'>
-                            <p className='wBL-p1'>Hi</p>
-                            <div className='wBL-h-tree'></div>
+
+                        <div className='wBL-container'>
+
+                            <div className='wBL-h-wrapper'>
+                                <p className='wBL-p1'>Hi</p>
+                                <div className='wBL-h-tree'></div>
+                            </div>
+                            <p className='wBL-p2'>I am</p>
+                            <p className='wBL-p3'>Alan</p>
                         </div>
-                        <p className='wBL-p2'>I am</p>
-                        <p className='wBL-p3'>Alan</p>
-                        <div className='wBL-line'></div>
+
+                        <div className='wBL-svgImg'></div>
+
                         {/*
+                        <div className='wBL-line'></div>
                         <div className='wBL-logo-wrapper'>
                             <div className='wBL-git-logo'></div>
                             <div className='wBL-linkedin-logo'></div>
