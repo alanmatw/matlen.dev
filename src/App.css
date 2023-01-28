@@ -10,3 +10,8 @@
     font-family: 'code-medium';
     src: url('fonts/static/SourceCodePro-Medium.ttf');
   }
+
+  @font-face {
+    font-family: 'code-extrabold';
+    src: url('fonts/static/SourceCodePro-ExtraBold.ttf');
+  }

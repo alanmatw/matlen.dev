@@ -59,7 +59,7 @@ export default class homeFn extends React.Component {
                                 by Scott Lynch.
                             </p>
                             <p className='wBR-p1'>
-                                <span className='wBR-bold'>Projects:</span><br></br>
+                                <span className='wBR-bold-qw'>Projects:</span><br></br>
                                 <span className='wBR-bold'>Zode: </span>I handled the front-end part of Zode using React.js. Zode is a platform where all developers can interact and plan their 
                                 projects more efficiently and affordably. Some of the features include: group video calling, instant messaging, calendar integration, 
                                 project tracking, organizing tasks using boards, etc<br></br>
@@ -71,7 +71,7 @@ export default class homeFn extends React.Component {
                                 GitHub Link: <a href='https://github.com/alanmatw/codename-prox' id='wBR-underline'><span className='wBR-green'>https://github.com/alanmatw/codename-prox</span></a>                             
                             </p>
                             <p className='wBR-p1'>
-                                <span className='wBR-bold'>Contact Details:</span><br></br>Email: <span className=''>alanmatw@gmail.com</span><br></br>Phone: <span className=''>+1 (647)928-3049</span>
+                                <span className='wBR-bold-qw'>Contact Details:</span><br></br>Email: <span className=''>alanmatw@gmail.com</span><br></br>Phone: <span className=''>+1 (647)928-3049</span>
                                 <br></br>GitHub: <a href='https://github.com/alanmatw' id='wBR-underline'><span className='wBR-green'>https://github.com/alanmatw</span></a><br></br>Linkedin: <a href='https://www.linkedin.com/in/alanmatw' id='wBR-underline'><span className='wBR-green'>https://www.linkedin.com/in/alanmatw</span></a>
                             </p>
                         </div>

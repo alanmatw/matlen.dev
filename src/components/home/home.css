@@ -165,6 +165,10 @@
     font-weight: bold;
 }
 
+.wBR-bold-qw {
+    font-family: "code-extrabold";
+}
+
 .wBR-svg {
     margin-top: 0px;
     margin-left: 35%;
