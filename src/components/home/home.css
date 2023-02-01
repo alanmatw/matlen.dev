@@ -35,8 +35,20 @@
 }
 
 .webBodyLeft {
-    background-color: #61892F; 
-       
+    /*background-color: #61892F;*/
+	background-image: linear-gradient(rgb(72,0,72,0.8), rgb(192,72,72,0.8)), url('../../assets/abs1.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;        
+}
+
+.wBL-overlay {
+    width: 461px;
+    height: 681px;
+    background-color: #1A1A1D;
+    position: relative;
+    top: 0%;
+    opacity: 0.6;
 }
 
 .wBL-container {

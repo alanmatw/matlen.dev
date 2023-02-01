@@ -27,9 +27,8 @@ export default class homeFn extends React.Component {
                 <div className='webBodyWrapper'>
 
                     <div className='webBodyLeft'>
-
-                        <div className='wBL-container'>
-
+                        
+                        *<div className='wBL-container'>
                             <div className='wBL-h-wrapper'>
                                 <p className='wBL-p1'>Hi</p>
                                 <div className='wBL-h-tree'></div>
@@ -38,7 +37,7 @@ export default class homeFn extends React.Component {
                             <p className='wBL-p3'>Alan</p>
                         </div>
 
-                        <div className='wBL-svgImg'></div>
+                        {/*<div className='wBL-svgImg'></div>*/}
 
                         {/*
                         <div className='wBL-line'></div>
