@@ -166,7 +166,8 @@
 }
 
 .wBR-green {
-    color: #61892F;
+    /*color: #61892F;*/
+    color: #fff;
 }
 
 #wBR-underline {
