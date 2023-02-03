@@ -28,9 +28,9 @@ export default class homeFn extends React.Component {
 
                     <div className='webBodyLeft'>
                         
-                        *<div className='wBL-container'>
+                        <div className='wBL-container'>
                             <div className='wBL-h-wrapper'>
-                                <p className='wBL-p1'>Hi</p>
+                                <p className='wBL-p1'>Hi.</p>
                                 <div className='wBL-h-tree'></div>
                             </div>
                             <p className='wBL-p2'>I am</p>
