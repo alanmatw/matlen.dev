@@ -184,11 +184,11 @@
 }
 
 .wBR-svg {
-    margin-top: 0px;
+    margin-top: 20px;
     margin-left: 35%;
-    width: 250px;
-	height: 150px;
-	background-image: url('../../assets/svg_coding.svg');
+    width: 200px;
+	height: 100px;
+	background-image: url('../../assets/ured.svg');
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: contain;  
