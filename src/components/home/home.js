@@ -55,7 +55,7 @@ export default class homeFn extends React.Component {
                             <p className='wBR-p1'>
                                 I am a web developer, specialized in MERN stack. Currently, I live in Kitchener, 
                                 Ontario. Orginally I'm from Kerala, India. I love reading books and playing PC games. My favorite book is 'The Lies of Locke Lamora'
-                                by Scott Lynch, and my favorite game is Assasins Creed.
+                                by Scott Lynch, and my favorite game is 'Assasins Creed'.
                             </p>
                             <p className='wBR-p1'>
                                 <span className='wBR-bold-qw'>Projects:</span><br></br>
