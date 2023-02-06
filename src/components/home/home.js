@@ -47,9 +47,9 @@ export default class homeFn extends React.Component {
                             </div>
 
                             <div className='wBL-logo-wrapper'>
-                                <div className='wBL-git-logo'></div>
-                                <div className='wBL-linkedin-logo'></div>
-                                <div className='wBL-instagram-logo'></div>
+                                <a href='https://github.com/alanmatw'><div className='wBL-git-logo'></div></a>
+                                <a href='https://www.linkedin.com/in/alanmatw/'><div className='wBL-linkedin-logo'></div></a>
+                                <a href='https://www.instagram.com/alanmatw/'><div className='wBL-instagram-logo'></div></a>
                             </div>                        
 
                         </div>
@@ -77,10 +77,7 @@ export default class homeFn extends React.Component {
                                 This project is based on an idea to deliver professional services to people at the comfort of their home.<br></br> 
                                 GitHub Link: <a href='https://github.com/alanmatw/codename-prox' id='wBR-underline'><span className='wBR-green'>https://github.com/alanmatw/codename-prox</span></a>                             
                             </p>
-                            <p className='wBR-p1'>
-                                <span className='wBR-bold-qw'>Contact Details:</span><br></br>Email: <span className=''>alanmatw@gmail.com</span><br></br>Phone: <span className=''>+1 (647)928-3049</span>
-                                <br></br>GitHub: <a href='https://github.com/alanmatw' id='wBR-underline'><span className='wBR-green'>https://github.com/alanmatw</span></a><br></br>Linkedin: <a href='https://www.linkedin.com/in/alanmatw' id='wBR-underline'><span className='wBR-green'>https://www.linkedin.com/in/alanmatw</span></a>
-                            </p>
+
                         </div>
                         <div className='wBR-copyright'>
                             <p>&copy;matlen.dev</p>
@@ -89,7 +86,6 @@ export default class homeFn extends React.Component {
                         {/*
                         <div className='wBR-svg'></div>                        
                         */}
-
 
                     </div>
                 </div>
