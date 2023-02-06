@@ -1,5 +1,5 @@
 ### My Personal Website.
-### `matlen.dev`
+### `matlen.dev` https://matlendev.netlify.app/
 
-### 'In a Glance'
-![Getting Started](./assets/screenshot.png)
+### In a Glance
+![IMG](./src/assets/screenshot.png)
