@@ -5,9 +5,9 @@ import panda from '../../assets/panda.mp3';
 
 const song = () => {
 
-  const [play] = UseSound(panda);
+  const [play, { stop }] = UseSound(panda);
 
-  return <button className='btn' onClick={play}></button>;
+  return <button className='btn' onClick={() => play()}></button>;
 };
 
 export default song;
