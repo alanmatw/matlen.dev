@@ -8,9 +8,20 @@
     padding-left: 20px;
 }
 
+.nav-grid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    opacity: 0.8;
+}
+
+.nav-song {
+    padding-top: 3px;
+    padding-left: 95%;
+}
+
 .nav-flex-wrapper {
     display: flex;
-    opacity: 0.8;
 }
 
 .nav-cmd {
@@ -286,6 +297,13 @@
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: contain;  
+}
+
+.wBR-btn {
+    width: 100px;
+    height: 20px;
+    background-color: #fff;
+    color: #000;
 }
 
 .wBR-copyright p {

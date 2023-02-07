@@ -1,4 +1,5 @@
 import React from 'react';
+import Song from '../song/song';
 import './home.css'
 
 export default class homeFn extends React.Component {
@@ -19,10 +20,20 @@ export default class homeFn extends React.Component {
         return (
             <div className='homeWrapper'>                
                 <div className='navWrapper'>
-                    <div className='nav-flex-wrapper'>
-                        <div className='nav-cmd'></div>
-                        <p className='nav-msg'>Welcome to matlen.dev_</p>
+
+                    <div className='nav-grid'>
+                    
+                        <div className='nav-flex-wrapper'>
+                            <div className='nav-cmd'></div>
+                            <p className='nav-msg'>Welcome to matlen.dev_</p>
+                        </div>
+
+                        <div className='nav-song'>
+                            <Song />
+                        </div>
+
                     </div>
+
                 </div>
                 <div className='webBodyWrapper'>
 
@@ -90,31 +101,18 @@ export default class homeFn extends React.Component {
                                     This project is based on an idea to deliver professional services to people at the comfort of their home.<br></br>
                                     GitHub Link: <a href='https://github.com/alanmatw/codename-prox' id='wBR-underline'><span className='wBR-white'>https://github.com/alanmatw/codename-prox</span></a>                                     
                                 </p>
+                            
                             </div>
-                            
-                            
-                            
-                            {/*<p className='wBR-p1'>
-                                <span className='wBR-bold-qw'>Projects:</span><br></br>
-                                <span className='wBR-bold'>Zode: </span>I handled the front-end part of Zode using React.js. Zode is a platform where all developers can interact and plan their 
-                                projects more efficiently and affordably. Some of the features include: group video calling, instant messaging, calendar integration, 
-                                project tracking, organizing tasks using boards, etc<br></br>
-                                GitHub Link: <a href='https://github.com/alanmatw/zod-frontend' id='wBR-underline'><span className='wBR-green'>https://github.com/alanmatw/zod-frontend</span></a>
-                                <br></br><br></br>
-
-                                <span className='wBR-bold'>CliqServe: </span>I developed the front-end part of CliqServe (Github Repository Name: codename-prox), using Vue.js. 
-                                This project is based on an idea to deliver professional services to people at the comfort of their home.<br></br> 
-                                GitHub Link: <a href='https://github.com/alanmatw/codename-prox' id='wBR-underline'><span className='wBR-green'>https://github.com/alanmatw/codename-prox</span></a>                             
-                            </p>*/}
-
+                        
                         </div>
+
                         <div className='wBR-copyright'>
                             <p>&copy;matlen.dev</p>
                         </div>
 
-                        {/*
-                        <div className='wBR-svg'></div>                        
-                        */}
+                        <div>
+                            
+                        </div>
 
                     </div>
                 </div>

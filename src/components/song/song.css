@@ -1,0 +1,15 @@
+.btn {
+    width: 25px;
+    height: 25px;
+    /*background-color: #000;
+    color: #fff;*/
+	background-image: url('../../assets/audio-white.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;  
+    border: none;   
+}
+
+.btn:hover {
+    cursor: pointer;
+}
