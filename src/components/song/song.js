@@ -3,11 +3,16 @@ import UseSound from 'use-sound';
 import './song.css'
 import panda from '../../assets/panda.mp3';
 
-const song = () => {
+function song() {
 
   const [play, { stop }] = UseSound(panda);
 
-  return <button className='btn' onClick={() => play()}></button>;
-};
+  return (
+    <div className='btn-wrapper'>
+      <button className='btn1' onClick={() => play()}></button>
+      <button className='btn2' onClick={() => stop()}></button>
+    </div>
 
+  ); 
+} 
 export default song;
