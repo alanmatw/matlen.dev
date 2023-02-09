@@ -1,11 +1,15 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import UseSound from 'use-sound';
 import './song.css'
 import panda from '../../assets/panda.mp3';
 
-function song() {
+function Song() {
 
   const [play, { stop }] = UseSound(panda);
+
+  useEffect(() => {
+    play();
+  })
 
   return (
     <div className='btn-wrapper'>
@@ -15,4 +19,5 @@ function song() {
 
   ); 
 } 
-export default song;
+
+export default Song;
