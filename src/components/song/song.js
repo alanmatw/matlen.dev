@@ -1,14 +1,14 @@
 import React, { useEffect } from 'react';
 import UseSound from 'use-sound';
 import './song.css'
-import panda from '../../assets/panda.mp3';
+import panda from '../../assets/warriyo.mp3';
 
 function Song() {
 
   const [play, { stop }] = UseSound(panda);
 
   useEffect(() => {
-    play();
+
   })
 
   return (
