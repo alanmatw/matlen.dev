@@ -51,7 +51,7 @@
 	background-image: linear-gradient(rgb(72,0,72,0.8), rgb(192,72,72,0.8)), url('../../assets/abs1.jpg');
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: cover;        
+	background-size: cover;      
 }
 
 .wBL-overlay {
@@ -306,10 +306,21 @@
     color: #000;
 }
 
+.wBR-smiley {
+    margin-top: 20px;
+    margin-left: 0px;    
+    width: 23px;
+	height: 23px;
+	background-image: url('../../assets/smiley1.svg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;     
+}
+
 .wBR-copyright p {
     font-size: 17px;
     color: #fff; 
-    margin-top: 110px;
+    margin-top: 80px;
     margin-left: 87%;    
 }
 

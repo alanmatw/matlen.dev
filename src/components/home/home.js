@@ -103,7 +103,9 @@ export default class homeFn extends React.Component {
                                 </p>
                             
                             </div>
-                        
+
+                            <div className='wBR-smiley'></div>
+
                         </div>
 
                         <div className='wBR-copyright'>
