@@ -74,22 +74,26 @@ export default class homeFn extends React.Component {
                            <div>
                                 <p className='wBR-s1-p1'>About Me.</p>
                                 <p className='wBR-s1-p2'>
-                                    I am a web developer, specialized in MERN stack. Currently, I live in Kitchener, 
-                                    Ontario. Orginally I'm from Kerala, India. I love reading books and playing PC games. My favorite book is 'The Lies of Locke Lamora'
-                                    by Scott Lynch, and my favorite game is 'Assasins Creed'.
+                                    Software engineer with a strong programming background. I'm always curious, keen on problem-solving, 
+                                    and enjoy challenging environments. Skilled in various programming languages. Done projects in web development 
+                                    using MEVN and MERN stack. My hobbies include visiting new places and playing computer games.
                                 </p>
                            </div>
                            
                            <div>
                                 <p className='wBR-s1-p1'>Skills.</p>
                                 <p className='wBR-s1-p2'>
-                                    As a programmer, I am skilled at Python, C, C++, Javascript. In the case of web development I follow MERN stack (MongoDB, Express.js, React.js, Node.js).
-                                     I am also enthusiastic about ethical hacking and network security, and working on to enhance those skills.
+                                    I am skilled at Javascript, C, C++, Java, ASP.NET, SQL. In the case of web development I follow MERN stack (MongoDB, Express.js, React.js, Node.js).
+                                    I am also enthusiastic about ethical hacking and network security, and working on to enhance those skills.
                                 </p>
                            </div>
 
                             <div>
                                 <p className='wBR-s1-p1'>Projects.</p>
+                                <p className='wBR-s1-p2'>
+                                    EarthyFashion: Collaboratively built a comprehensive e-commerce platform to sell sustainable products online. Consisted of dashboards for admins, sellers, and customers. 
+                                    Developed using React.js for the front end and ASP.NET for the back end. Led front-end development.<br></br>
+                                </p>                                
                                 <p className='wBR-s1-p2'>
                                     Zode: I handled the front-end part of Zode using React.js. Zode is a platform where all developers can interact and plan their 
                                     projects more efficiently and affordably. Some of the features include: group video calling, instant messaging, calendar integration, 
