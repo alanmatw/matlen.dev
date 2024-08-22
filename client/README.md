@@ -2,7 +2,7 @@
 
 ## Run the CLient.
 
-Clone the repo.
+Change directory.
 
 ```bash
 cd client

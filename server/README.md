@@ -1,8 +1,8 @@
 ### `matlen.dev`
 
-## Run the Server
+## Run the Server.
 
-Clone the repo.
+Change directory.
 
 ```bash
 cd server
