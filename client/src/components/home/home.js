@@ -1,14 +1,34 @@
 import React, { useState } from 'react';
 import Song from '../song/song';
 import './home.css'
+import axios from 'axios';
 
 function Home() {
 
-    const [var_a] = useState('');
-  
-    /*useEffect(() => {
-  
-    })*/
+    const [name, setName] = useState('');
+    const [email, setEmail] = useState('');
+    const [comment, setComment] = useState('');
+
+    const handleSubmit = async (e) => {
+        e.preventDefault();
+        console.log({ name, email, comment });
+
+        try {
+            await axios.post('http://localhost:5000/api/contact', {
+                name: name,
+                email: email,
+                comment: comment
+            });
+            alert('Message sent successfully!');
+            setName('');
+            setEmail('');
+            setComment('');
+        } catch (error) {
+            console.error('There was an error sending the message!', error);
+            alert('There was an error sending your message. Please try again.');
+        }        
+
+    };
   
     return (
         
@@ -104,32 +124,46 @@ function Home() {
                         
                         </div>
 
-                        <div className='wBR-smiley'></div>
+                        <div>
+                            <p className='wBR-s1-p1'>Get in Touch</p>
 
-                    </div>
+                            <div className='wBR-c-rect'>
+                                <form className='wBR-contact-form' onSubmit={handleSubmit}>
+                                    <input
+                                        className='form-item'
+                                        type='text'
+                                        name='name'
+                                        placeholder='Enter Name'
+                                        value={name}
+                                        onChange={(e) => setName(e.target.value)}
+                                        required
+                                    />
+                                    <br />
+                                    <input
+                                        className='form-item'
+                                        type='email'
+                                        name='email'
+                                        placeholder='Enter Email'
+                                        value={email}
+                                        onChange={(e) => setEmail(e.target.value)}
+                                        required
+                                    />
+                                    <br />
+                                    <textarea
+                                        className=''
+                                        name='comment'
+                                        placeholder='Enter Comment'
+                                        rows='4'
+                                        value={comment}
+                                        onChange={(e) => setComment(e.target.value)}
+                                        required
+                                    ></textarea>
+                                    <br />
+                                    <button type='submit' className='form-btn'>Send</button>
+                                </form>
+                            </div>
+                        </div>
 
-                    <div className='wBR-contact'>
-                        <form className='contact-form'>
-                                <input
-                                    type='text'
-                                    name='name'
-                                    placeholder='Name'
-                                    required
-                                />
-                                <input
-                                    type='email'
-                                    name='email'
-                                    placeholder='Email'
-                                    required
-                                />
-                                <textarea
-                                    name='comment'
-                                    placeholder='Comment'
-                                    rows='4'
-                                    required
-                                ></textarea>
-                                <button type='submit'>Send</button>
-                            </form>
                     </div>
 
                     <div className='wBR-copyright'>
