@@ -1,0 +1,36 @@
+.btn-wrapper {
+    display: flex;
+}
+.btn1 {
+    margin-top: 4px;
+    margin-right: 10px;
+    width: 18px;
+    height: 18px;
+    /*background-color: #000;
+    color: #fff;*/
+	background-image: url('../../assets/play.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;  
+    border: none;   
+}
+
+.btn1:hover {
+    cursor: pointer;
+}
+
+.btn2 {
+    width: 25px;
+    height: 25px;
+    /*background-color: #000;
+    color: #fff;*/
+	background-image: url('../../assets/pause.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;  
+    border: none;   
+}
+
+.btn2:hover {
+    cursor: pointer;
+}
