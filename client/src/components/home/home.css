@@ -1,15 +1,16 @@
 .homeWrapper {
-    width: 1536px;
+    width: 100%;
+    height: 100vh;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .navWrapper {
     height: 50px;
-    background-color: #1A1A1D;
+    background-color: #000;
     padding-left: 20px;
 }
 
 .nav-grid {
-    width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
     opacity: 0.8;
@@ -17,14 +18,14 @@
 
 .nav-song {
     padding-top: 10px;
-    padding-left: 92%;
+    padding-left: 88%;
 }
 
-.nav-flex-wrapper {
-    display: flex;
+.nav-left {
+    
 }
 
-.nav-cmd {
+/*.nav-cmd {
     padding-top: 30px;
     width: 20px;
 	height: 20px;
@@ -32,26 +33,34 @@
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: contain;
-}
+    filter: hue-rotate(90deg) saturate(200%) brightness(100%) contrast(100%);
+}*/
 
 .nav-msg {
     padding-left: 5px;
-    font-family: "code-medium";
-    color: #fff;
+    color: #33ff33;
+}
+
+.blinking-cursor {
+    animation: blink 1s infinite;
+}
+
+@keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
 }
 
 .webBodyWrapper {
     display: grid;
     grid-template-columns: 30% 70%;
-    height: 681px;
+    height: calc(100% - 50px);
 }
 
 .webBodyLeft {
-    /*background-color: #61892F;*/
 	background-image: linear-gradient(rgb(72,0,72,0.8), rgb(192,72,72,0.8)), url('../../assets/abs1.jpg');
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: cover;      
+	background-size: cover;
 }
 
 .wBL-overlay {
@@ -65,6 +74,8 @@
 
 .wBL-container {
     padding-left: 20px;
+    padding-top: 20px;
+    height: 100%;
 }
 
 .wBL-h-wrapper {
@@ -74,15 +85,15 @@
 .wBL-p1 {
     margin: 0;
     font-weight: bold;
-    font-size: 150px;
+    font-size: 140px;
     color: #1A1A1D;
 }
 
 /*.wBL-h-tree {
     margin-top: 120px;
-    width: 30px;
-	height: 30px;
-	background-image: url('../../assets/smiley.svg');
+    width: 40px;
+	height: 40px;
+	background-image: url('../../assets/undraw_tree.svg');
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: contain;    
@@ -90,7 +101,7 @@
 
 .wBL-p2 {
     margin-top: -50px;
-    font-size: 150px;
+    font-size: 140px;
     color: #1A1A1D;  
     font-weight: bold;    
     margin-bottom: 0px;
@@ -98,7 +109,7 @@
 
 .wBL-p3 {
     margin-top: -50px;
-    font-size: 150px;
+    font-size: 140px;
     color: #1A1A1D;  
     font-weight: bold;  
     margin-bottom: 0;
@@ -223,7 +234,7 @@
     margin-top: -2px;    
     width: 45px;
 	height: 45px;
-	background-image: url('../../assets/instagram\ logo.svg');
+	background-image: url('../../assets/instagram_logo.svg');
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;     
@@ -231,39 +242,32 @@
 
 .webBodyRight {
     background-color: #1A1A1D;
+    overflow-y: auto;
 }
 
 .wBR-container {
     padding-left: 20px;
-    padding-top: 0px;
+    padding-top: 20px;
 }
 
-/*.wBR-photo {
-    border-radius: 10px;
-    width: 150px;
-    height: 150px;
-	background-image: url('../../assets/photo1.jpg');
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: contain;     
-}*/
-
 .wBR-s1-p1 {
-    font-family: "code-medium";
-    padding-left: 0px;
-    padding-top: 0px;
+    font-size: 25px;
+    color: #33ff33;    
+}
+
+.project-name {
+    padding: 3px;
     font-size: 18px;
     color: #1A1A1D;
     background-color: #fff;
     opacity: 0.4;
     width: 120px;
-    /*color: #fff;*/
     margin: 0px;
-    text-align: center;
+    text-align: center;  
+    font-weight: bolder;  
 }
 
 .wBR-s1-p2 {
-    font-family: "code-medium";
     padding-left: 0px;
     padding-top: 0px;
     font-size: 18px;
@@ -271,7 +275,6 @@
 }
 
 .wBR-white {
-    /*color: #61892F;*/
     color: #fff;
     opacity: 0.7;
 }
@@ -285,7 +288,7 @@
 }
 
 .wBR-bold-qw {
-    font-family: "code-extrabold";
+
 }
 
 .wBR-svg {
@@ -323,4 +326,3 @@
     margin-top: 80px;
     margin-left: 87%;    
 }
-
