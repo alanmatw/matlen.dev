@@ -31,6 +31,7 @@ cd server
 
 ```bash
 npm run dev
+```
 
 ## License
 
