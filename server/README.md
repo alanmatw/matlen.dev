@@ -1,13 +1,13 @@
 ### `matlen.dev`
 
-## Run the CLient.
+## Run the Server
 
 Clone the repo.
 
 ```bash
-cd client
+cd server
 ```
 Run the server.
 
 ```bash
-npm run start
+npm run dev

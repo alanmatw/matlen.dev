@@ -13,11 +13,24 @@ Clone the repo.
 git clone https://github.com/alanmatw/matlen.dev.git
 cd matlen.dev
 ```
-Run the server.
+Run the client.
+
+```bash
+cd client
+```
 
 ```bash
 npm run start
 ```
+
+Run the server.
+
+```bash
+cd server
+```
+
+```bash
+npm run dev
 
 ## License
 
