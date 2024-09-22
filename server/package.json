@@ -10,6 +10,6 @@
   "author": "Alan Mathew",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.19.2"
+    "express": "^4.21.0"
   }
 }
