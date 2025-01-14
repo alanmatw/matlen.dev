@@ -123,7 +123,7 @@ function Home() {
                             </p>
                         
                         </div>
-
+{/*
                         <div>
                             <p className='wBR-s1-p1'>Get in Touch</p>
 
@@ -163,7 +163,7 @@ function Home() {
                                 </form>
                             </div>
                         </div>
-
+*/}
                     </div>
 
                     <div className='wBR-copyright'>
